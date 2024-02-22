@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+.photo{
+    background-image: url(imatge3vil.jpg); 
+}
+header {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu-principal a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    
+}
+
+.paquets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pack {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2%;
+    margin-left: 2%; 
+    margin-right: 2%; 
+}
+
+
+.text {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video {
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 0 0 50%; /* Cada pack ocupa el 50% del ancho */
+    max-width: 50%; /* Máximo ancho de cada pack */
+}
+
+#mapa {
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+
+.agreim {
+    flex-direction: column;
+    text-align: left;
+
+}
+
+
+.agreim a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 575px) {
+    .contenido {
+      column-count: 1; 
+    }
+  }
+  
+  @media screen and (min-width: 576px) and (max-width: 991px) {
+    .contenido {
+      column-count: 2;
+    }
+  }
+  
+  
+  @media screen and (min-width: 992px) {
+ 
+    .contenido {
+      column-count: 3; 
+    }
+  }
+  
+ .contenido{
+    margin-left: 2%; 
+    margin-right: 2%; 
+ }

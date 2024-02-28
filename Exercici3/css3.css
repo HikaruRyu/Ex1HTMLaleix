@@ -55,7 +55,6 @@ header {
     max-width: 50%; 
 }
 
-
 #mapa {
     width: 90%;
     height: 400px;
@@ -74,9 +73,10 @@ footer {
 }
 
 .agreim {
-    flex-direction: column;
-    text-align: left;
-
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 }
 
 
@@ -110,3 +110,17 @@ footer {
     margin-left: 2%; 
     margin-right: 2%; 
  }
+
+.text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 0 0 50%; 
+    max-width: 50%; 
+}

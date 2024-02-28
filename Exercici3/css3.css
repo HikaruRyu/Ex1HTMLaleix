@@ -51,9 +51,10 @@ header {
     text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex: 0 0 50%; /* Cada pack ocupa el 50% del ancho */
-    max-width: 50%; /* Máximo ancho de cada pack */
+    flex: 0 0 50%; 
+    max-width: 50%; 
 }
+
 
 #mapa {
     width: 90%;

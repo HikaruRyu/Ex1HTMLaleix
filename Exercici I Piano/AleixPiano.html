@@ -91,12 +91,16 @@ function DeleteMemoria(){
 	document.getElementById('Memories').innerHTML = Memory;
 }
 
-function PlayMemoria(){
+async function PlayMemoria(){
 	
-	for (let i=0; i<Memory.length; i++){
-		setTimeout(function(){
-			Play(Memory[i]);
-		}, 500*i);
+	for (note in Memory){
+		let audio = new Audio(Memory[note]+'.mp3');
+		audio.play();
+	await sleep(500);
+	}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
 	}
 	
 }

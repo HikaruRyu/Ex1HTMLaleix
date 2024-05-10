@@ -35,5 +35,3 @@ function playSound() {
     let audio = new Audio('boing.mp3');
     audio.play();
 }
-
-

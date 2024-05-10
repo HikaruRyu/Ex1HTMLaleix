@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>PIANO</h2>
+
+<p id="demo"></p>
+
+<br><br>
+<button id="do" type="button" onclick="Play('do')">Do</button>
+<button id="re" type="button" onclick="Play('re')">Re</button>
+<button id="mi" type="button" onclick="Play('mi')">Mi</button>
+<button id="fa" type="button" onclick="Play('fa')">Fa</button>
+<button id="sol" type="button" onclick="Play('sol')">Sol</button>
+<button id="la" type="button" onclick="Play('la')">La</button>
+<button id="si" type="button" onclick="Play('si')">Si</button>
+<br><br><br><br>
+<button type="button" onclick="DeleteMemoria()">Delete Memòria</button>
+<button type="button" onclick="PlayMemoria()">Play Memòria</button>
+
+<p id="Memories"></p>
+
+<script>
+
+let Memory=[];
+
+
+
+function Play(note){
+
+	if (note == 'do'){
+		let audio = new Audio('do.mp3');
+		audio.play();
+		Memory.push('do');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	else if (note == 're'){
+		let audio = new Audio('re.mp3');
+		audio.play();
+		Memory.push('re');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	
+	else if (note == 'mi'){
+		let audio = new Audio('mi.mp3');
+		audio.play();
+		Memory.push('mi');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	
+	else if (note == 'fa'){
+		let audio = new Audio('fa.mp3');
+		audio.play();
+		Memory.push('fa');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	
+	else if (note == 'sol'){
+		let audio = new Audio('sol.mp3');
+		audio.play();
+		Memory.push('sol');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	
+	else if (note == 'la'){
+		let audio = new Audio('la.mp3');
+		audio.play();
+		Memory.push('la');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	
+	else if (note == 'si'){
+		let audio = new Audio('si.mp3');
+		audio.play();
+		Memory.push('si');
+		document.getElementById('Memories').innerHTML = Memory;
+	}
+
+	}
+
+
+function DeleteMemoria(){
+	
+	Memory=[];
+	document.getElementById('Memories').innerHTML = Memory;
+}
+
+function PlayMemoria(){
+	
+	for (let i=0; i<Memory.length; i++){
+		setTimeout(function(){
+			Play(Memory[i]);
+		}, 500*i);
+	}
+	
+}
+
+</script>
+
+</body>
+</html>

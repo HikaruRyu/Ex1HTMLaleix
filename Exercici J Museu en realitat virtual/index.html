@@ -34,16 +34,16 @@
     <a-assets>
       <a-asset-item id="Casa" src="assets/house_home_-_53mb/scene.gltf"></a-asset-item>
       <a-asset-item id="Corpse" src="assets/corpse/scene.gltf"></a-asset-item>
+      <a-asset-item id="Monster" src="assets/goat-corpse-photogrammetry_scan/scene.gltf"></a-asset-item>
+      <a-asset-item id="Girl" src="assets/cute_anime_girl_mage/scene.gltf"></a-asset-item>      
     </a-assets>
 
     <a-scene>
       <a-sky src="#imgFons"></a-sky>
-      <a-sphere position="5 2 -5" radius="1"  src="#imgFantasma"
-                animation="property: rotation; dur: 10000;
-                       to: 0 360 0; loop: true">
-       </a-sphere>
       <a-entity gltf-model="#Casa" position="0 0 0" scale="1.0 1.0 1.0"></a-entity>
-      <a-entity gltf-model="#Corpse" position="0 0 0" scale="1.0 1.0 1.0"></a-entity>
+      <a-entity gltf-model="#Corpse" position="0 0 0" scale="0.02 0.02 0.02"></a-entity>
+      <a-entity gltf-model="#Monster" position="0 0 0" scale="0.02 0.02 0.02"></a-entity>
+      <a-entity gltf-model="#Girl" position="0 0 0" scale="0.02 0.02 0.02"></a-entity>
     </a-scene>
   </body>
 </html>

@@ -32,10 +32,8 @@
   </head>
   <body>
     <a-assets>
-      <img id="imgSortida" src="assets/entragroc.png" >
-      <img id="imgFantasma" src="assets/fantasma.png" >
-      <img id="imgFons" src="assets/house_home_-_53mb/scene.gltf" >
       <a-asset-item id="Casa" src="assets/house_home_-_53mb/scene.gltf"></a-asset-item>
+      <a-asset-item id="Corpse" src="assets/corpse/scene.gltf"></a-asset-item>
     </a-assets>
 
     <a-scene>
@@ -45,7 +43,7 @@
                        to: 0 360 0; loop: true">
        </a-sphere>
       <a-entity gltf-model="#Casa" position="0 0 0" scale="1.0 1.0 1.0"></a-entity>
-      <a-plane position="3 2 -5" src="#imgSortida" transparent="true"></a-plane>
+      <a-entity gltf-model="#Corpse" position="0 0 0" scale="1.0 1.0 1.0"></a-entity>
     </a-scene>
   </body>
 </html>

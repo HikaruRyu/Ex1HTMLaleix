@@ -1,0 +1,11 @@
+Model Information:
+* title:	Goat-corpse-photogrammetry scan
+* source:	https://sketchfab.com/3d-models/goat-corpse-photogrammetry-scan-b38a95e9b5f74f9d947de0bb8b4949d6
+* author:	Carriage Way Cemetery (https://sketchfab.com/knowmatt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Goat-corpse-photogrammetry scan" (https://sketchfab.com/3d-models/goat-corpse-photogrammetry-scan-b38a95e9b5f74f9d947de0bb8b4949d6) by Carriage Way Cemetery (https://sketchfab.com/knowmatt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

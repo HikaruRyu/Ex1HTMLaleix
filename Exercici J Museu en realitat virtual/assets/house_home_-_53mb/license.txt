@@ -1,0 +1,11 @@
+Model Information:
+* title:	House Home - 53MB
+* source:	https://sketchfab.com/3d-models/house-home-53mb-4aa178e6c8b14dcf855de2fdee075f17
+* author:	Mehdi Shahsavan (https://sketchfab.com/ahmagh2e)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "House Home - 53MB" (https://sketchfab.com/3d-models/house-home-53mb-4aa178e6c8b14dcf855de2fdee075f17) by Mehdi Shahsavan (https://sketchfab.com/ahmagh2e) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
